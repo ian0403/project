@@ -5,7 +5,12 @@ size_t my_strlen(char *s)
 	while (*p) ++p;
 	return (p - s);
 }
-
+int my_int(char *s)
+{
+	char *p = s;
+	while (*p) ++p;
+	return (p - s);
+}
 int main(void) {
 	int i;
 
